@@ -1,0 +1,25 @@
+.reqPage {
+  width: 700px;
+}
+
+.header {
+  text-align: center;
+}
+
+.columns {
+  display: grid;
+  grid-template-areas: "p t";
+  grid-template-columns: 3fr 3fr;
+}
+
+.picture {
+  grid-area: p;
+}
+
+.text {
+  grid-area: t;
+}
+
+.firstParagraphs {
+  margin: 10px;
+}

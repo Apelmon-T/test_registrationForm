@@ -1,0 +1,13 @@
+.nav {
+  display: grid;
+  grid-template-areas: "i i i i i";
+  padding: 5px;
+  align-items: end;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+  grid-area: i;
+  margin-right: -50px;
+}

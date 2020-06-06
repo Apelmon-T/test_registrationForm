@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-areas: "l m";
+  padding: 5px;
+}
+
+.logo {
+  grid-area: l;
+}
+
+.menu {
+  grid-area: m;
+}
